@@ -11,6 +11,11 @@ h1 {
     font-size:26px; margin: 20px; background-color:rgba(250, 250, 250, 0.5); padding:15px; border-radius: 20px; color:black;
 }
 
+h2 {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
 .main-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -35,7 +40,7 @@ h1 {
 }
 
 input {
-    margin-top: 20px;
+    margin-top: 5px;
     border-radius: 50px;
     letter-spacing: 0.7px;
     width: 200px;
