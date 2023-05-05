@@ -7,7 +7,7 @@ const Tag = () => {
     return (
         <div className='container'>
             <h1>Random Gif</h1>
-            <img src={gif} alt="Random Gif" style="max-width:250px;width:100%" />
+            <img src={gif} alt="Random Gif" width={250} />
             <button onClick={fetchGif}>CLICK FOR NEW</button>
         </div>
     );
