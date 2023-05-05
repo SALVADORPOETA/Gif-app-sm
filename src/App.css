@@ -41,7 +41,8 @@ h2 {
 
 .img-container {
     align-items: center;
-    width: auto;
+    width: 250px;
+    height: 250px;
 }
 
 input {
