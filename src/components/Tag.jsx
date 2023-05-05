@@ -6,7 +6,7 @@ const Tag = () => {
     const { gif, fetchGif } = useGif(tag);
     
     return (
-        <div width="250" className='container'>
+        <div height="300" className='container'>
             <h1>Random {tag} Gif</h1>
             <img src={gif} alt="Random Gif" />
             <h2>Search gif:</h2>
