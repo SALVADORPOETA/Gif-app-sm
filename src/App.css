@@ -67,3 +67,6 @@ button {
     letter-spacing: 0.7px;
   }
 
+img {
+    max-width: 100%;
+}
