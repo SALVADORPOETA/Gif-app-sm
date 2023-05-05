@@ -5,9 +5,9 @@ const Tag = () => {
     const { gif, fetchGif } = useGif();
 
     return (
-        <div className='container'>
+        <div width="250" className='container'>
             <h1>Random Gif</h1>
-            <img width="250" src={gif} alt="Random Gif" />
+            <img src={gif} alt="Random Gif" />
             <button onClick={fetchGif}>CLICK FOR NEW</button>
         </div>
     );
