@@ -39,6 +39,11 @@ h2 {
     width: 100%;
 }
 
+.img-container {
+    align-items: center;
+    width: auto;
+}
+
 input {
     margin-top: 5px;
     border-radius: 50px;
@@ -60,3 +65,4 @@ button {
     font-size: large;
     letter-spacing: 0.7px;
   }
+
