@@ -8,7 +8,7 @@ const Tag = () => {
     return (
         <div className='container'>
             <h1>Random {tag} Gif</h1>
-            <img width={250} height={250} src={gif} alt="Random Gif" />
+            <img width={250} src={gif} alt="Random Gif" />
             <h2>Search gif:</h2>
             <label aria-label='Write down a category of a gif' ><input value={tag} onChange={(e) => setTag(e.target.value)} type="text" /></label>
             <button onClick={() => fetchGif(tag)}>CLICK FOR NEW</button>
